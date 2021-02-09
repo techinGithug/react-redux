@@ -1,11 +1,17 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { addTodo } from '../redux/actions'
 
 function TodoInput() {
     const [name, setName] = useState('')
+
     const dispatch = useDispatch()
     const todos = useSelector(state => state)
+    console.log(todos)
+
+    useEffect(() => {
+        // console.log("User effect...");
+    });
 
     return (
         <div>

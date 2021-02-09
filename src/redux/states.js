@@ -1,14 +1,18 @@
 export let todos = [
     {
         id: 1,
-        name:"One"
+        name:"One",
+        finished:false
     },
     {
         id: 2,
-        name:"Two"
+        name:"Two",
+        finished:false
     },
     {
         id: 3,
-        name:"Three"
-    }
+        name:"Three",
+        finished:false
+    },
 ]
+

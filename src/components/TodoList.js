@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux'
 
 function TodoList() {
     const todos = useSelector(state => state)
-    console.log(todos)
+    // console.log(todos)
     return (
         <div className="my-3">
             {
